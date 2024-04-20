@@ -11,6 +11,8 @@ UNDER CONSTRUCTION
 2. After finishing, data export in YOLO format is needed for next step
 3. Training and evaluation of model
 4. Testing in Python w/ OpenCV
+   
+![demo](/image/demo.jpg)
 
 ---
 Credit goes to [Ultralytics](https://github.com/ultralytics/yolov5)
