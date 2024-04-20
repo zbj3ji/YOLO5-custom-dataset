@@ -51,6 +51,15 @@ classes_colors = (
         (220, 50, 20)   # Eye
 )
 
+# font 
+font = cv2.FONT_HERSHEY_SIMPLEX 
+            
+# fontScale 
+fontScale = 1
+            
+# Line thickness of 2 px 
+thickness = 2
+
 # Read frames from the camera until the user quits
 while True:
     # Capture frame-by-frame
@@ -87,20 +96,11 @@ while True:
             elif int(class_number) == 2:
                 text = 'OKO'    
 
-            # font 
-            font = cv2.FONT_HERSHEY_SIMPLEX 
-            
             # org 
             org = (int(x1), int(y1-10))
             
-            # fontScale 
-            fontScale = 1
-            
             # Blue color in BGR 
             color = classes_colors[int(class_number)]
-            
-            # Line thickness of 2 px 
-            thickness = 2
             
             # print class name
             cv2.putText(annotated_frame, text + " (" + format(conf, ".2f") + ")", org, font, fontScale, color, thickness, cv2.LINE_AA)
