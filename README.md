@@ -2,6 +2,8 @@
 
 UNDER CONSTRUCTION
 
+**This has been created as a repo for students to show abaility of [YOLO](https://www.v7labs.com/blog/yolo-object-detection)**
+
 1. Data have been labeled in [Label Studio](https://labelstud.io/)
    - recommendations 1000-2000 examples for every class
    - to save training time I used just ~50 images for 3 classes (recognition of Bosch logo, DIGI@JhP logo and eyes detection)
