@@ -2,7 +2,7 @@
 
 UNDER CONSTRUCTION
 
-**This has been created as a repo for students to show ability of [YOLO](https://www.v7labs.com/blog/yolo-object-detection)**
+**This has been created as a repo for students to show ability of [YOLO](https://www.v7labs.com/blog/yolo-object-detection) algorithm**
 
 ## **Before you start expperimenting to train your own models, please follow [these](https://github.com/ultralytics/yolov5) installation instructions to make YOLO5 ready**
 
