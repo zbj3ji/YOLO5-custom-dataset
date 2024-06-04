@@ -4,7 +4,7 @@ UNDER CONSTRUCTION
 
 **This has been created as a repo for students to show ability of [YOLO](https://www.v7labs.com/blog/yolo-object-detection) algorithm**
 
-## **Before you start expperimenting to train your own models, please follow [these](https://github.com/ultralytics/yolov5) installation instructions to make YOLO5 ready**
+## **Before you start experimenting to train your own models, please follow [these](https://github.com/ultralytics/yolov5) installation instructions to make YOLO5 ready**
 
 1. Data have been labeled in [Label Studio](https://labelstud.io/)
    - recommendations 1000-2000 examples for every class
